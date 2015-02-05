@@ -1,0 +1,95 @@
+C:\workspace\ease-ui-core\EASE_App>npm install
+npm WARN package.json EASE@0.0.2 No repository field.
+npm WARN package.json EASE@0.0.2 No README data
+npm WARN package.json karma-chrome-launcher@0.1.7 No README data
+npm WARN package.json karma-firefox-launcher@0.1.4 No README data
+npm WARN package.json karma-coffee-preprocessor@0.2.1 No README data
+/
+
+
+> chromedriver@2.13.0 install C:\workspace\ease-ui-core\EASE_App\node_modules\c
+romedriver
+> node install.js
+
+Downloading http://chromedriver.storage.googleapis.com/2.13/chromedriver_win32.
+ip
+Saving to C:\Users\rmp395\AppData\Local\Temp\chromedriver\chromedriver_win32.zi
+
+Receiving...
+ChromeDriver installation failed undefined
+\
+
+
+> phantomjs@1.9.15 install C:\workspace\ease-ui-core\EASE_App\node_modules\karm
+-phantomjs-launcher\node_modules\phantomjs
+> node install.js
+
+Downloading https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-1.9.8-win
+ows.zip
+Saving to C:\Users\rmp395\AppData\Local\Temp\phantomjs\phantomjs-1.9.8-windows.
+ip
+Using proxy http://rmp395:******@proxy.kdc.capitalone.com:8099/
+Receiving...
+
+Error making request.
+Error: socket hang up
+    at SecurePair.error (tls.js:1011:23)
+    at EncryptedStream.CryptoStream._done (tls.js:703:22)
+    at CleartextStream.read [as _read] (tls.js:499:24)
+    at CleartextStream.Readable.read (_stream_readable.js:341:10)
+    at EncryptedStream.onCryptoStreamFinish (tls.js:304:47)
+    at EncryptedStream.g (events.js:180:16)
+    at EncryptedStream.emit (events.js:117:20)
+    at finishMaybe (_stream_writable.js:360:12)
+    at endWritable (_stream_writable.js:367:3)
+    at EncryptedStream.Writable.end (_stream_writable.js:345:5)
+
+Please report this full log at https://github.com/Medium/phantomjs
+
+> selenium-standalone@2.44.0-7 install C:\workspace\ease-ui-core\EASE_App\node_
+odules\selenium-standalone
+> node install.js
+
+Installation finished
+
+Error: Could not download http://selenium-release.storage.googleapis.com/2.44/I
+DriverServer_x64_2.44.0.zip
+    at getDownloadStream (C:\workspace\ease-ui-core\EASE_App\node_modules\selen
+um-standalone\install.js:133:34)
+    at installZippedFile (C:\workspace\ease-ui-core\EASE_App\node_modules\selen
+um-standalone\install.js:101:3)
+    at installIeDr (C:\workspace\ease-ui-core\EASE_App\node_modules\selenium-st
+ndalone\install.js:97:3)
+    at C:\workspace\ease-ui-core\EASE_App\node_modules\selenium-standalone\node
+modules\async\lib\async.js:570:21
+    at C:\workspace\ease-ui-core\EASE_App\node_modules\selenium-standalone\node
+modules\async\lib\async.js:249:17
+    at C:\workspace\ease-ui-core\EASE_App\node_modules\selenium-standalone\node
+modules\async\lib\async.js:125:13
+    at Array.forEach (native)
+    at _each (C:\workspace\ease-ui-core\EASE_App\node_modules\selenium-standalo
+e\node_modules\async\lib\async.js:46:24)
+    at async.each (C:\workspace\ease-ui-core\EASE_App\node_modules\selenium-sta
+dalone\node_modules\async\lib\async.js:124:9)
+    at _asyncMap (C:\workspace\ease-ui-core\EASE_App\node_modules\selenium-stan
+alone\node_modules\async\lib\async.js:248:13)
+
+npm ERR! chromedriver@2.13.0 install: `node install.js`
+npm ERR! Exit status 1
+npm ERR!
+npm ERR! Failed at the chromedriver@2.13.0 install script.
+npm ERR! This is most likely a problem with the chromedriver package,
+npm ERR! not with npm itself.
+npm ERR! Tell the author that this fails on your system:
+npm ERR!     node install.js
+npm ERR! You can get their info via:
+npm ERR!     npm owner ls chromedriver
+npm ERR! There is likely additional logging output above.
+npm ERR! System Windows_NT 6.1.7601
+npm ERR! command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\no
+ejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+npm ERR! cwd C:\workspace\ease-ui-core\EASE_App
+npm ERR! node -v v0.10.36
+npm ERR! npm -v 1.4.28
+npm ERR! code ELIFECYCLE
+npm ERR! not ok code 0
